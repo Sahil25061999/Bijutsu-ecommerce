@@ -15,15 +15,33 @@ h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
 }
-/* 
+
 ::-webkit-scrollbar {
   width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
   border-radius: 2rem;
-} */
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--hover-color);
+}
+
+.home-cards-section,
+.hero-section,
+.home-card-hover,
+.trending-section .home-cards-section {
+  display: flex;
+}
+
+.navbar-icon {
+  font-size: 1.2rem;
+}
 
 .home-navbar {
   background-color: white;
@@ -31,6 +49,11 @@ h6 {
   top: 0;
   z-index: 99;
   padding: 8px 5rem;
+}
+
+.textbox:hover,
+.textbox:focus {
+  border-color: var(--secondary-text-color);
 }
 
 .home-section {
@@ -42,7 +65,6 @@ h6 {
 }
 
 .home-cards-section {
-  display: flex;
   margin-top: 1rem;
 }
 
@@ -54,7 +76,6 @@ h6 {
   background-color: black;
   background-size: contain;
   padding: 2rem 5rem;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -66,7 +87,7 @@ h6 {
 
 .hero-container {
   width: 50vw;
-  min-width: 350px;
+  min-width: 21.87rem;
 }
 
 .hero-container h1 {
@@ -126,7 +147,7 @@ h6 {
   width: 100%;
   position: absolute;
   background-color: rgb(0, 0, 0, 0.5);
-  display: flex;
+
   align-items: center;
   justify-content: center;
   top: 100%;
@@ -149,7 +170,7 @@ h6 {
 .trending-section .home-cards-section {
   align-self: center;
   justify-self: center;
-  display: flex;
+
   margin-left: 1rem;
   justify-content: flex-start;
   overflow-x: scroll;
@@ -173,9 +194,10 @@ h6 {
   left: 2%;
 }
 
-/* .trending-section::-webkit-scrollbar {
-   width: 0; 
-} */
+.trending-section::-webkit-scrollbar,
+.trending-section .home-cards-section::-webkit-scrollbar {
+  display: none;
+}
 
 .home-cards-section .card {
   flex-shrink: 0;
@@ -197,6 +219,10 @@ h6 {
 @media only screen and (max-width: 58.75em) {
   body {
     font-size: 80%;
+  }
+
+  .navbar-icon {
+    font-size: 14px;
   }
 
   .home-navbar .logo-container {
