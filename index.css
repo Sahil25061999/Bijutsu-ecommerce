@@ -206,7 +206,7 @@ h6 {
 
 /******** FOOTER *************/
 .footer {
-  padding: 1rem;
+  padding: 2rem;
   background: var(--secondary-text-color);
   color: var(--primary-text-color);
   bottom: 0;
