@@ -2,6 +2,7 @@
 
 :root {
   --slider-color: rgba(0, 0, 0, 0.418);
+  --wishlist-active: rgb(255, 38, 38);
 }
 
 .body {
@@ -25,6 +26,10 @@
   overflow-y: scroll;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(max-content, 350px));
+}
+
+.wishlist-btn-active {
+  color: var(--wishlist-active);
 }
 
 .filter-section {
