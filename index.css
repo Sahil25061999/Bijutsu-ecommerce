@@ -46,7 +46,7 @@ h6 {
 }
 
 .home-navbar {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   position: fixed;
   top: 0;
   z-index: 99;
@@ -264,6 +264,9 @@ h6 {
 }
 
 @media only screen and (max-width: 34.06em) {
+  .home-navbar {
+    padding: 8px 2rem;
+  }
   .hero-section {
     background-size: cover;
   }
