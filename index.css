@@ -28,10 +28,10 @@ h6 {
 ::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
   border-radius: 2rem;
-  cursor: pointer;
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--hover-color);
+  cursor: pointer;
 }
 
 .home-cards-section,
@@ -222,10 +222,6 @@ h6 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-}
-
-.footer-list {
-  margin-top: 1rem;
 }
 
 .footer-list-items {
