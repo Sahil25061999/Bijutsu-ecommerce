@@ -22,8 +22,8 @@ input[type='number'] {
   place-content: center;
   justify-items: center;
   background-color: rgba(230, 230, 230, 0.288);
-  padding-right: 5rem;
-  padding-left: 5rem;
+
+  padding: 0 5rem;
 }
 
 /* My Cart Heading*/
@@ -153,8 +153,7 @@ input[type='number'] {
     align-items: center;
     grid-template-columns: 1fr;
     gap: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0 1rem;
   }
   .cart-card.card-horizontal {
     width: 18rem;
