@@ -1,5 +1,18 @@
 @import '/index.css';
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* layout */
+
 .body {
   width: 100vw;
   margin-top: 4rem;
@@ -12,6 +25,8 @@
   padding-right: 5rem;
   padding-left: 5rem;
 }
+
+/* My Cart Heading*/
 
 .body > h2 {
   grid-row: 1;
@@ -42,10 +57,14 @@
   border-radius: 1rem;
 }
 
+/* Price details container*/
+
 .cart-price-container {
   margin-top: 1.5rem;
   border-top: 1px solid var(--secondary-text-color);
 }
+
+/* Price container  rows */
 
 .cart-price-container div {
   display: flex;
@@ -61,6 +80,7 @@
   border-bottom: 1px solid var(--secondary-text-color);
 }
 
+/* Cart Price title*/
 .cart-price-section > p {
   font-size: 1.1rem;
   margin-bottom: 1rem;
@@ -70,7 +90,10 @@
   width: 100%;
 }
 
+/* Card Styling specifically for cart page*/
+
 .cart-card.card-horizontal {
+  transition: 0s;
   background-color: var(--primary-text-color);
   justify-content: center;
   align-content: center;
@@ -100,8 +123,9 @@
 .card-quantity-input {
   width: 2rem;
   padding: 5px;
-  font-size: 1rem;
+  font-size: inherit;
   margin: 0 2px;
+  text-align: center;
 }
 
 .cart-card.card-horizontal .card-foot {
@@ -160,7 +184,6 @@
   .cart-product-list {
     padding: 0.5rem;
     width: 100%;
-
     grid-row: 3;
     display: flex;
     justify-content: center;
