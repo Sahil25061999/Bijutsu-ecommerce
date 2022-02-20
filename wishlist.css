@@ -1,0 +1,30 @@
+@import 'index.css';
+
+.body,
+.wishlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  width: 100vw;
+  margin: 4rem 0;
+  flex-direction: column;
+}
+
+.body > h2 {
+  margin: 2rem 0;
+}
+
+.wishlist {
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 2px solid var(--secondary-text-color);
+}
+
+.card-foot {
+  margin-bottom: 0;
+}
