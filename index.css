@@ -27,6 +27,11 @@ h6 {
   color: var(--wishlist-active);
 }
 
+.logo-container:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }

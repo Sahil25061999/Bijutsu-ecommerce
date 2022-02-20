@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="authentication.css" />
+    <title>Bijutsu | Sign up</title>
+  </head>
+  <body>
+    <header class="navbar home-navbar margin-b-1r">
+      <div class="logo-container">
+        <h2><a href="/index.html">Bijutsu</a></h2>
+      </div>
+
+      <div class="search-container">
+        <input
+          class="textbox"
+          type="text"
+          placeholder="Search images, gifs, music .."
+        />
+        <button class="btn btn-only-icon btn-square">
+          <span class="fa-solid fa-magnifying-glass"></span>
+        </button>
+      </div>
+
+      <nav class="navbar-menu">
+        <ul class="navbar-list list-style-none">
+          <li class="navbar-item">
+            <button class="btn">
+              <a
+                href="/pages/product_listing/product_listing.html"
+                class="navbar-link"
+                ><span class="fa-solid fa-globe navbar-icon"></span
+              ></a>
+            </button>
+          </li>
+          <li class="navbar-item">
+            <a href="/index.html" class="navbar-link btn">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="login.html" class="navbar-link btn">Login</a>
+          </li>
+
+          <li class="navbar-item hamburger-icon">
+            <a href="#" class="navbar-link btn"
+              ><span class="fa-solid fa-bars"></span
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="body">
+      <form action="" class="form-container signup-container">
+        <h2 class="form-head text-center">Sign Up</h2>
+        <div class="form-inputs">
+          <div class="input-container">
+            <label for="fullname">Full Name</label>
+            <input id="fullname" class="textbox" type="text" required />
+          </div>
+          <div class="input-container">
+            <label for="email">Email</label>
+            <input id="email" class="textbox" type="email" required />
+          </div>
+          <div class="input-container">
+            <label for="password">Password</label>
+            <input id="password" class="textbox" type="password" required />
+            <span class="fa-solid fa-eye password-eye-icon"></span>
+          </div>
+          <div class="input-container">
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              id="confirm-password"
+              class="textbox"
+              type="password"
+              required
+            />
+            <span
+              class="fa-solid fa-eye password-eye-icon confirm-password-eye"
+            ></span>
+          </div>
+          <div class="input-container remember-me-container">
+            <div>
+              <label for="remember-me"
+                ><input type="checkbox" id="remember-me" />Remember me</label
+              >
+            </div>
+          </div>
+          <button class="btn btn-primary form-sign-up-btn">Sign Up</button>
+          <p class="small-text terms-condition">
+            By signing up you agree to our
+            <a class="secondary-text-color term-condtn-link"
+              >terms and conditions</a
+            >
+          </p>
+          <p class="form-or-text">
+            <span class="line"></span>Or<span class="line"></span>
+          </p>
+
+          <div class="form-default-mail-container">
+            <button class="btn btn-with-icon google-btn btn-black">
+              <a href="#"
+                ><span class="fa-brands fa-google btn-icon"></span> Sign up
+                using google</a
+              >
+            </button>
+          </div>
+          <p
+            class="small-text have-account-condition text-center muted-text-color"
+          >
+            Already have an account ?
+            <a href="login.html" class="secondary-text-color form-login-link"
+              >Login</a
+            >
+          </p>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
