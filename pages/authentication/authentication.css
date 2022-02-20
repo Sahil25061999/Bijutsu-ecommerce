@@ -6,8 +6,8 @@
 
 .body {
   width: 100vw;
-
-  height: 90vh;
+  min-height: 90vh;
+  height: 100%;
   margin-top: auto;
   padding: 1rem;
   display: flex;
@@ -34,12 +34,17 @@
   margin-top: 2rem;
 }
 
+.signup-container .form-inputs {
+  margin-top: 12px;
+}
+
 .input-container {
   position: relative;
   margin-bottom: 1rem;
 }
 
 .input-container label {
+  font-size: 12px;
   margin-bottom: 5px;
 }
 

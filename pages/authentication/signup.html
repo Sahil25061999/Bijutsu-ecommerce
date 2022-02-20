@@ -51,17 +51,33 @@
       </nav>
     </header>
     <main class="body">
-      <form action="" class="form-container">
+      <form action="" class="form-container signup-container">
         <h2 class="form-head text-center">Sign Up</h2>
         <div class="form-inputs">
           <div class="input-container">
+            <label for="fullname">Full Name</label>
+            <input id="fullname" class="textbox" type="text" required />
+          </div>
+          <div class="input-container">
             <label for="email">Email</label>
-            <input id="email" class="textbox" type="email" />
+            <input id="email" class="textbox" type="email" required />
           </div>
           <div class="input-container">
             <label for="password">Password</label>
-            <input id="password" class="textbox" type="password" />
+            <input id="password" class="textbox" type="password" required />
             <span class="fa-solid fa-eye password-eye-icon"></span>
+          </div>
+          <div class="input-container">
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              id="confirm-password"
+              class="textbox"
+              type="password"
+              required
+            />
+            <span
+              class="fa-solid fa-eye password-eye-icon confirm-password-eye"
+            ></span>
           </div>
           <div class="input-container remember-me-container">
             <div>
