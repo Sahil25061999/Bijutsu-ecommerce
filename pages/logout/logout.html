@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="logout.css" />
+    <title>Bijutsu | Log In</title>
+  </head>
+  <body>
+    <header class="navbar home-navbar margin-b-1r">
+      <div class="logo-container">
+        <h2><a href="/index.html">Bijutsu</a></h2>
+      </div>
+
+      <div class="search-container">
+        <input
+          class="textbox"
+          type="text"
+          placeholder="Search images, gifs, music .."
+        />
+        <button class="btn btn-only-icon btn-square">
+          <span class="fa-solid fa-magnifying-glass"></span>
+        </button>
+      </div>
+
+      <nav class="navbar-menu">
+        <ul class="navbar-list list-style-none">
+          <li class="navbar-item">
+            <button class="btn">
+              <a
+                href="/pages/product_listing/product_listing.html"
+                class="navbar-link"
+                ><span class="fa-solid fa-globe navbar-icon"></span
+              ></a>
+            </button>
+          </li>
+          <li class="navbar-item">
+            <a href="/index.html" class="navbar-link btn">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="signup.html" class="navbar-link btn">Sign Up</a>
+          </li>
+
+          <li class="navbar-item hamburger-icon">
+            <a href="#" class="navbar-link btn"
+              ><span class="fa-solid fa-bars"></span
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="body">
+      <h1 class="text-center">You have been logged out!</h1>
+      <button class="btn btn-white login-btn">
+        <a href="/pages/authentication/login.html">Login</a>
+      </button>
+    </main>
+  </body>
+</html>
