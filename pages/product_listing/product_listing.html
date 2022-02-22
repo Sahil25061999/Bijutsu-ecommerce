@@ -28,26 +28,22 @@
       <nav class="navbar-menu">
         <ul class="navbar-list list-style-none">
           <li class="navbar-item">
-            <button class="btn link-active">
-              <a href="#" class="navbar-link"
-                ><span class="fa-solid fa-globe navbar-icon"></span
-              ></a>
-            </button>
+            <a href="#" class="btn link-active navbar-link"
+              ><span class="fa-solid fa-globe navbar-icon"></span
+            ></a>
           </li>
           <li class="navbar-item">
-            <button class="btn">
-              <a href="/pages/wishlist/wishlist.html" class="navbar-link"
-                ><span class="fa-solid fa-heart navbar-icon"></span
-              ></a>
-            </button>
+            <a href="/pages/wishlist/wishlist.html" class="btn navbar-link"
+              ><span class="fa-solid fa-heart navbar-icon"></span
+            ></a>
           </li>
           <li class="navbar-item">
-            <button class="btn badge-container">
-              <span class="badge"></span>
-              <a href="/pages/cart/cart.html" class="navbar-link"
-                ><span class="fa-solid fa-cart-shopping navbar-icon"></span
-              ></a>
-            </button>
+            <a
+              href="/pages/cart/cart.html"
+              class="btn navbar-link badge-container"
+              ><span class="badge"></span>
+              <span class="fa-solid fa-cart-shopping navbar-icon"></span
+            ></a>
           </li>
           <li class="navbar-item">
             <a href="/pages/authentication/login.html" class="navbar-link btn"
@@ -174,7 +170,7 @@
             <div class="filter-input-container">
               <label class="margin-b-5"
                 ><input
-                  name="ratings"
+                  name="sort"
                   type="radio"
                   value="Featured Products"
                   class="radio margin-r-5"
@@ -182,7 +178,7 @@
               >
               <label class="margin-b-5"
                 ><input
-                  name="ratings"
+                  name="sort"
                   type="radio"
                   value="Price high to low"
                   class="radio margin-r-5"
@@ -190,7 +186,7 @@
               >
               <label class="margin-b-5"
                 ><input
-                  name="ratings"
+                  name="sort"
                   type="radio"
                   value="Price low to high"
                   class="radio margin-r-5"
@@ -226,7 +222,7 @@
           <div class="card-foot d-flex">
             <button class="card-buy-btn btn btn-black margin-r-10">Buy</button>
             <button class="card-go-cart-btn btn btn-accented">
-              Go to cart
+              <a href="/pages/cart/cart.html">Go to cart</a>
             </button>
             <button class="btn btn-only-icon wishlist-btn wishlist-btn-active">
               <span class="fa-solid fa-heart"></span>
