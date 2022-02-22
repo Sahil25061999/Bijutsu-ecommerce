@@ -13,7 +13,7 @@ Bijutsu is a japanese word for art. And thats what we sell at bijutsu from digit
 - [Landing](https://bijutsu.netlify.app/index.html 'Bijutsu Landing Page')
 - [Product List](https://bijutsu.netlify.app/pages/product_listing/product_listing.html 'Product List')
 - [Wishlist](https://bijutsu.netlify.app/pages/wishlist/wishlist.html 'Wishlist')
-- [Cart](https://bijutsu.netlify.app/pages/cart/cart.html, 'Cart')
+- [Cart](https://bijutsu.netlify.app/pages/cart/cart.html 'Cart')
 - [Logout](https://bijutsu.netlify.app/pages/logout/logout.html 'Logout')
 
 # Demo
